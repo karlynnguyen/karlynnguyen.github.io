@@ -1,0 +1,1107 @@
+*
+{
+
+}
+
+a:hover
+{
+    cursor: url('illustration/pointer.png'), auto;
+}
+
+html
+{
+    cursor: url('illustration/cursor.png'), auto;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 240, 245);
+}
+
+/**
+{
+    cursor: url('illustration/cursor.png'), auto;
+}*/
+
+.header
+{
+    background-color: white;
+    border-bottom: 0.4vw solid rgb(165, 58, 102);
+    position: absolute;
+    width: 100%;
+    height: 12vw;
+    top: 0;
+    left: 0;
+}
+
+.introgirl
+{
+    position: absolute;
+    width: 97%;
+    height: auto;
+    left: 1vw;
+    top: 10vh;
+}
+
+.arrowright
+{
+    display: inline-flex;
+    position: absolute;
+    width: 4%;
+    height: auto;
+    left: 13.5vw;
+    top: 9.5vw;
+    animation: blink-arrowright 0.5s linear infinite;
+}
+
+@keyframes blink-arrowright
+{
+    0%
+    {
+        opacity: 0;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+img
+{
+    width: 100%;
+}
+
+@font-face
+{
+    font-family: 'MisterPixel';
+    src: url('font/misterpixel.otf');
+}
+
+h1
+{
+    font-family: "MisterPixel";
+    font-size: 4.85vw;
+    color: rgb(132, 41, 41);
+    position: absolute;
+    left: 27.45vw;
+    top: 15.5vw;
+}
+
+.css-typing p
+{
+    font-family: "MisterPixel";
+    font-size: 3.6vw;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(132, 41, 41);
+}
+
+.css-typing p:nth-child(1)
+{
+    display: inline-flex;
+    position: absolute;
+    height: auto;
+    left: 18.5vw;
+    top: 6.45vw;
+    width: 13em;
+    -webkit-animation: type 3s steps(40, end);
+    animation: type 3s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) 
+{ 
+    display: inline-flex;
+    position: absolute;
+    height: auto;
+    left: 16.5vw;
+    top: 13.35vw;
+    width: 9em;
+    opacity: 0;
+    -webkit-animation: type2 3s steps(40, end);
+    animation: type2 3s steps(40, end);
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+} 
+
+.css-typing p:nth-child(3) 
+{
+    display: inline-flex;
+    position: absolute;
+    height: auto;
+    left: 17.2vw;
+    top: 20.15vw;
+    width: 10em;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(40, end);
+    animation: type3 3s steps(40, end);
+    -webkit-animation-delay: 6.2s;
+    animation-delay: 6.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) 
+{
+    display: inline-flex;
+    position: absolute;
+    height: auto;
+    left: 17.2vw;
+    top: 26.8vw;
+    width: 7.3em;
+    opacity: 0;
+    -webkit-animation: type4 3s steps(40, end);
+    animation: type4 3s steps(40, end);
+    -webkit-animation-delay: 9.3s;
+    animation-delay: 9.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes type 
+{
+
+0% 
+    {
+       width: 0;
+    }
+
+100% 
+
+    {
+       border: none;
+    }
+
+}
+
+
+
+@-webkit-keyframes type2 
+{
+
+0% 
+    {
+       width: 0;
+       opacity: 1;
+    }  
+
+100% 
+    {
+       opacity: 1;
+       border: none;
+    }
+
+}
+
+@-webkit-keyframes type3
+{
+
+0% 
+    {
+       width: 0;
+       opacity: 1;
+    }  
+
+100% 
+    {
+       opacity: 1;
+       border: none;
+    }
+
+}
+
+@-webkit-keyframes type4
+{
+
+0% 
+    {
+       width: 0;
+       opacity: 1;
+    }  
+
+100% 
+    {
+       opacity: 1;
+       border: none;
+    }
+
+}
+
+.arrowdown
+{
+    display: inline-flex;
+    position: absolute;
+    width: 6%;
+    height: auto;
+    left: 45.45vw;
+    top: 40vw;
+    -webkit-animation: updown 1s infinite;
+    -webkit-animation-delay: 10.3s;
+}
+
+@-webkit-keyframes updown
+{
+0%
+    {
+        top: 40vw;
+    }
+
+50%
+    {
+        top: 42vw;
+    }
+100%
+    {
+        top: 40vw;
+    }
+}
+
+.explorebox
+{
+    display: inline-flex;
+    position: absolute;
+    width: 35%;
+    height: auto;
+    left: 32vw;
+    top: 55vw;
+}
+
+.explorebox:hover
+{
+    -webkit-animation: updown-explore 1s infinite;
+}
+
+@-webkit-keyframes updown-explore
+{
+0%
+    {
+        top: 55vw;
+    }
+
+25%
+    {
+        top: 56vw;
+    }
+75%
+    {
+        top: 54vw;
+    }
+100%
+    {
+        top: 55vw;
+    }
+}
+
+p
+{
+    font-family: "MisterPixel";
+    font-size: 3.6vw;
+    color: rgb(132, 41, 41);
+    position: absolute;
+    left: 33%;
+    top: 8%;
+}
+
+p:hover
+{
+    color: rgb(214, 103, 144);
+}
+
+.copyright
+{
+    display: inline-flex;
+    position: absolute;
+    width: 14.7%;
+    height: auto;
+    left: 4.75vw;
+    top: 9.2vw;
+    animation: fade-in-left 0.5s ease;
+}
+
+.about 
+{
+    display: inline-flex;
+    position: absolute;
+    width: 24.55%;
+    height: auto;
+    left: 44.55vw;
+    top: 1.55vw;
+}
+
+.about:hover
+{
+    -webkit-animation: updown-about 1s infinite;
+}
+
+@-webkit-keyframes updown-about
+{
+0%
+    {
+        top: 1.55vw;
+    }
+
+25%
+    {
+        top: 2vw;
+    }
+75%
+    {
+        top: 1vw;
+    }
+100%
+    {
+        top: 1.55vw;
+    }
+}
+
+.archive 
+{
+    display: inline-flex;
+    position: absolute;
+    width: 24.55%;
+    height: auto;
+    left: 59.57vw;
+    top: 1.55vw;
+}
+
+.archive:hover
+{
+    -webkit-animation: updown-about 1s infinite;
+}
+
+.contact
+{
+    display: inline-flex;
+    position: absolute;
+    width: 24.55%;
+    height: auto;
+    left: 74.6vw;
+    top: 1.55vw;
+}
+
+.contact:hover
+{
+    -webkit-animation: updown-about 1s infinite;
+}
+
+.frame
+{
+    display: inline-flex;
+    position: absolute;
+    width: 44.75%;
+    height: auto;
+    left: 3vw;
+    top: 31vw;
+    animation: fade-in-left 0.5s ease;
+}
+
+@keyframes fade-in-left
+{
+0%
+    {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+100%
+    {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.intro
+{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    left: 8.3vw;
+    top: 7.1vw;
+}
+
+.blingbig, .blingmedium, .blingsmall, .blingbigbox, .blingmediumbox, .blingsmallbox
+{
+    position: absolute;
+    width: 14%;
+    height: auto;
+    animation: pulse 0.7s infinite ease-in-out alternate;
+}
+
+.blingbig
+{
+    left: 4.5vw;
+    top: 24.5vw;
+}
+
+.blingmedium
+{
+    left: 30vw;
+    top: 3.75vw;
+}
+
+.blingsmall
+{
+    left: 32.5vw;
+    top: 6.5vw;
+}
+
+.blingbigbox
+{
+    left: 2.5vw;
+    top: 1vw;
+}
+
+.blingmediumbox
+{
+    left: 33.5vw;
+    top: 24vw;
+}
+
+.blingsmallbox
+{
+    left: 31vw;
+    top: 26vw;
+}
+
+@keyframes pulse
+{
+    from 
+    {
+        transform: scale(0.8);
+    }
+    to
+    {
+        transform: scale(1.2);
+    }
+}
+  
+.box
+{
+    display: inline-flex;
+    position: absolute;
+    width: 43%;
+    height: auto;
+    left: 54.5vw;
+    top: 105vw;
+    animation: fade-in-left 0.5s ease;
+}
+
+.heart1, .heart2, .heart3, .heart4
+{
+    display: inline-flex;
+    position: absolute;
+    width: 7vw;
+    height: auto;
+}
+
+.heart1
+{
+    left: 20vw;
+    top: 17.25vw;
+    animation: blink-heart1 2s infinite;
+}
+
+.heart2
+{
+    left: 72vw;
+    top: 17.25vw;
+    animation: blink-heart2 2s infinite;
+}
+
+@keyframes blink-heart1
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes blink-heart2
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.wrapperh2
+{
+    width: 44.5vw;
+    height: 20vw;
+}
+
+h1
+{
+    animation: fade-in-left 0.5s ease;
+}
+
+h2
+{
+    font-family: "MisterPixel";
+    font-size: 1.8vw;
+    color: rgb(132, 41, 41);
+    position: relative;
+    left: 49.5vw;
+    top: 37.2vw;
+    line-height: 2.9vw;
+    animation: fade-in-left 0.5s ease;
+    text-align: right;
+}
+
+#cf 
+{
+    position: relative; 
+    margin: 0 auto; 
+    width: 30%; 
+    height: auto;
+    animation: fade-in-left 0.5s ease;
+}
+
+#cf img 
+{ 
+    position: absolute; 
+    left: 25.55vw; 
+    top: 84.75vw; 
+    opacity: 0; 
+    animation: fader 8s infinite;
+}
+
+#cf img:nth-child(1) { animation-delay: 0s; }
+#cf img:nth-child(2) { animation-delay: 3s; }
+#cf img:nth-child(3) { animation-delay: 6s; }
+#cf img:nth-child(4) { animation-delay: 9s; }
+#cf img:nth-child(5) { animation-delay: 12s; }
+#cf img:nth-child(6) { animation-delay: 15s; }
+
+@keyframes fader 
+{
+    0% { opacity: 0; } 
+    03.33% { opacity: 1; }
+    06.66% { opacity: 1; }
+    09.99% { opacity: 1; }
+    13.33% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.scroll
+{
+    display: inline-flex;
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 85.55vw;
+    animation: updown-scroll 1s infinite;
+}
+
+@-webkit-keyframes updown-scroll
+{
+0%
+    {
+        top: 79vw;
+    }
+
+25%
+    {
+        top: 80vw;
+    }
+75%
+    {
+        top: 78vw;
+    }
+100%
+    {
+        top: 79vw;
+    }
+}
+
+.cube, .fileai, .camera
+{
+    display: inline-flex;
+    position: absolute;
+    width: 6%;
+    height: auto;
+    animation: fade-in-left 0.5s ease;
+}
+
+.cube
+{
+    left: 74.5vw;
+    top: 68.75vw;
+}
+
+.fileai
+{
+    left: 62.5vw;
+    top: 68.5vw;
+}
+
+.camera
+{
+    left: 68.2vw;
+    top: 68.5vw;
+}
+
+.logo
+{
+    display: inline-flex;
+    position: absolute;
+    width: 8%;
+    height: auto;
+    left: 4vw;
+    top: 1vw;
+    animation: fade-in-left 0.5s ease;
+}
+
+.heart3
+{
+    left: -27.5vw;
+    top: 3vw;
+    animation: pulse 0.7s infinite ease-in-out alternate;
+}
+
+.heart4
+{
+    left: -27.5vw;
+    top: 23vw;
+    animation: pulse 0.7s infinite ease-in-out alternate;
+}
+
+#scroll-container 
+{
+    background-color: transparent;
+}
+
+#scroll-text 
+{
+    text-align: right;
+    font-family: "MisterPixel";
+    font-size: 6vw;
+    color: rgb(132, 41, 41);
+    position: absolute;
+    left: 27.45vw;
+    top: 145vw;
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  
+    -moz-animation: my-animation 4s linear infinite;
+    -webkit-animation: my-animation 4s linear infinite;
+    animation: my-animation 4s linear infinite;
+}
+
+@-webkit-keyframes my-animation 
+{
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation 
+{
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+.giftbox
+{
+    display: inline-flex;
+    position: absolute;
+    width: 17.5%;
+    height: auto;
+    left: 42vw;
+    -webkit-animation: updown-giftbox 1s infinite;
+}
+
+/*.giftbox:hover
+{
+    -webkit-animation: updown-giftbox 1s infinite;
+}*/
+
+@-webkit-keyframes updown-giftbox
+{
+0%
+    {
+        top: 157vw;
+    }
+
+25%
+    {
+        top: 158vw;
+    }
+75%
+    {
+        top: 156vw;
+    }
+100%
+    {
+        top: 157vw;
+    }
+}
+
+.end
+{
+    background-color: white;
+    border-top: 0.4vw solid rgb(165, 58, 102);
+    position: absolute;
+    width: 100%;
+    height: 16vw;
+    top: 195vw;
+    left: 0;
+}
+
+
+.logoend
+{
+    display: inline-flex;
+    position: absolute;
+    width: 8%;
+    height: auto;
+    left: 4vw;
+    top: 1.5vw;
+    animation: fade-in-left 0.5s ease;
+}
+
+.copyrightend
+{
+    display: inline-flex;
+    position: absolute;
+    width: 18%;
+    height: auto;
+    left: 79vw;
+    top: 12vw;
+    animation: fade-in-left 0.5s ease;
+}
+
+.boxsquare1, .boxsquare2, .boxsquare3, .boxsquare4, .boxsquare5, .boxsquare6
+{
+    display: inline-flex;
+    position: absolute;
+    width: 34%;
+    height: auto;
+}
+
+.boxsquare1:hover
+{
+    -webkit-animation: updown-boxsquareup 1s infinite;
+}
+
+.boxsquare2:hover
+{
+    -webkit-animation: updown-boxsquareup 1s infinite;
+}
+
+.boxsquare3:hover
+{
+    -webkit-animation: updown-boxsquareup 1s infinite;
+}
+
+.boxsquare4:hover
+{
+    -webkit-animation: updown-boxsquaredown 1s infinite;
+}
+
+.boxsquare5:hover
+{
+    -webkit-animation: updown-boxsquaredown 1s infinite;
+}
+
+.boxsquare6:hover
+{
+    -webkit-animation: updown-boxsquaredown 1s infinite;
+}
+
+.boxsquare1
+{
+    left: 3.5vw;
+    top: 25vw;
+}
+
+.boxsquare2
+{
+    left: 33.125vw;
+    top: 25vw;
+}
+
+.boxsquare3
+{
+    left: 62.75vw;
+    top: 25vw;
+}
+
+.boxsquare4
+{
+    left: 3.5vw;
+    top: 65vw;
+}
+
+.boxsquare5
+{
+    left: 33.125vw;
+    top: 65vw;
+}
+
+.boxsquare6
+{
+    left: 62.75vw;
+    top: 65vw;
+}
+
+@-webkit-keyframes updown-boxsquareup
+{
+0%
+    {
+        top: 25vw;
+    }
+
+25%
+    {
+        top: 26vw;
+    }
+75%
+    {
+        top: 24vw;
+    }
+100%
+    {
+        top: 25vw;
+    }
+}
+
+@-webkit-keyframes updown-boxsquaredown
+{
+0%
+    {
+        top: 65vw;
+    }
+
+25%
+    {
+        top: 66vw;
+    }
+75%
+    {
+        top: 64vw;
+    }
+100%
+    {
+        top: 65vw;
+    }
+}
+
+h3
+{
+    font-family: "MisterPixel";
+    font-size: 1.8vw;
+    color: rgb(132, 41, 41);
+    position: relative;
+    left: 12.5vw;
+    top: 27vw;
+    line-height: 2.9vw;
+    animation: fade-in-left 0.5s ease;
+    text-align: center;
+}
+
+.wrapperh3
+{
+    width: 75vw;
+    height: 50vw;
+}
+
+.boxsquare7, .boxsquare8, .boxsquare9, .boxsquare10, .boxsquare11, .boxsquare12, .boxsquare13, .boxsquare14, .boxsquare15, .boxsquare16,
+.boxsquare17, .boxsquare18
+{
+    display: inline-flex;
+    position: absolute;
+    width: 34%;
+    height: auto;
+    animation: fade-in-left 0.5s ease;
+}
+
+.boxsquare7
+{
+    left: 3.5vw;
+    top: 40vw
+}
+
+.boxsquare8
+{
+    left: 33.125vw;
+    top: 40vw;
+}
+
+.boxsquare9
+{
+    left: 62.75vw;
+    top: 40vw;
+}
+
+.boxsquare10
+{
+    left: 3.5vw;
+    top: 88vw;
+}
+
+.boxsquare11
+{
+    left: 33.125vw;
+    top: 88vw;
+}
+
+.boxsquare12
+{
+    left: 62.75vw;
+    top: 88vw;
+}
+
+.boxsquare13
+{
+    left: 48vw;
+    top: 133vw;
+}
+
+.boxsquare14
+{
+    left: 18.45vw;
+    top: 133vw;
+}
+
+.boxsquare16
+{
+    left: 3.5vw;
+    top: 118vw;
+}
+
+.boxsquare17
+{
+    left: 33.125vw;
+    top: 118vw;
+}
+
+.boxsquare18
+{
+    left: 62.75vw;
+    top: 118vw;
+}
+
+.boxsquare19, .boxsquare20, .boxsquare21
+{
+    display: inline-flex;
+    position: absolute;
+    width: 43%;
+    height: auto;
+    animation: fade-in-left 0.5s ease;
+}
+
+.boxsquare19
+{
+    left: 3vw;
+    top: 35vw;
+}
+
+.boxsquare20
+{
+    left: 54.5vw;
+    top: 60vw;
+}
+
+.boxsquare21
+{
+    left: 3vw;
+    top: 95vw;
+}
+
+.arrowback
+{
+    display: inline-flex;
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 86vw;
+    transform: rotate(90deg);
+}
+
+.arrowback:hover
+{
+    -webkit-animation: leftright 1s infinite;
+}
+
+@-webkit-keyframes leftright
+{
+0%
+    {
+        left: 86vw;
+    }
+
+25%
+    {
+        left: 87vw;
+    }
+75%
+    {
+        left: 84vw;
+    }
+100%
+    {
+        left: 86vw;
+    }
+}
+
+.grid
+{
+    z-index: -10;
+    position: absolute;
+    left: 1vw;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
